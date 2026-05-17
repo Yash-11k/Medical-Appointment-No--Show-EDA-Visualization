@@ -5,24 +5,6 @@ A person makes a doctor appointment, receives all the instructions and no-show. 
 
 
 
-Columns Description
-PatientId: Identification of a patient.
-AppointmentID: Identification of each appointment.
-Gender: Male or Female.
-AppointmentDay: The day of the actuall appointment, when they have to visit the doctor.
-ScheduledDay: The day someone called or registered the appointment, this is before appointment of course.
-Age: How old is the patient.
-Neighbourhood: Where the appointment takes place.
-Scholarship: True of False, indicates whether or not the patient is enrolled in Brasilian welfare program Bolsa Família.
-Hipertension: True or False.
-Diabetes: True or False.
-Alcoholism: True or False.
-Handcap: True or False.
-SMS_received: 1 or more messages sent to the patient.
-No-show: True (if the patient did not show up), or False (if the patient did show up).
-
-
-
 Exploration Summary
 our dataset consists of 110527 rows with 14 columns, and has no NaNs nor duplicated values.
 PatientId and AppointmentId columns wouldn't be helpful during analysis.
